@@ -4,7 +4,7 @@ public class Exercicio21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // login
+       
         System.out.print("Usuário: ");
         String usuario = sc.next();
         System.out.print("Senha: ");
@@ -16,7 +16,7 @@ public class Exercicio21 {
             double saldo = 0;
             int opcao = 0;
 
-            // menu repete até escolher 4 (sair)
+        
             while (opcao != 4) {
                 System.out.println();
                 System.out.println("1 - Ver saldo");
